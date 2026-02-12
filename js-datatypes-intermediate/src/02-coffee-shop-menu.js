@@ -18,5 +18,18 @@
  * @returns {string}
  */
 export function formatCoffeeMenu(items) {
-  // TODO: implement
+  if (!Array.isArray(items) || items.length === 0) {
+    return "";
+  }
+
+  return items
+    .filter(
+      (item) =>
+        item &&
+        item.name.trim() !== "" &&
+        Number.isFinite(item.price) &&
+        item.price > 0,
+    )
+    .map((item) => `${item.name.toUpperCase()} - $${item.price}`)
+    .join(" | ");
 }
