@@ -10,11 +10,13 @@ A collection of practice labs for mastering JavaScript and TypeScript logic, dat
 
 ## 📂 Labs Overview
 
-This monorepo contains three graduated labs:
+This monorepo contains five graduated labs:
 
 1.  **[js-conditionals](./js-conditionals)**: Basic control flow, if/else, switch, and logic.
 2.  **[js-datatypes-foundation](./js-datatypes-foundation)**: Core string, number, array, and object manipulation.
 3.  **[js-datatypes-intermediate](./js-datatypes-intermediate)**: Real-world data parsing, validation, and complex transformations.
+4.  **[js-loops](./js-loops)**: Loop-focused challenges using `for`, `while`, `do...while`, `for...of`, and nested loops.
+5.  **[js-functions](./js-functions)**: Function-focused challenges covering callbacks, closures, recursion, HOFs, composition, and module patterns.
 
 ## 🚀 Getting Started
 
