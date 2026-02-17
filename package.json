@@ -1,0 +1,21 @@
+{
+  "name": "js-ts-practice-labs",
+  "version": "1.0.0",
+  "workspaces": [
+    "js-conditionals",
+    "js-datatypes-foundation",
+    "js-datatypes-intermediate"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "format": "biome format --write .",
+    "lint": "biome lint .",
+    "check": "biome check --write .",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.0",
+    "typescript": "5.9.3",
+    "@types/bun": "latest"
+  }
+}
